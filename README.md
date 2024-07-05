@@ -2,7 +2,7 @@
 
 ### Task 1. Create an interface for the application.
 
-<img src="interface.png" width="128"/>
+<img src="interface.png" width="700"/>
 
 1) Import the necessary modules from the PyQt5 library.
 2) Create an application object (and application window).
