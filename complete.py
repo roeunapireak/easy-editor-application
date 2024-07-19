@@ -79,12 +79,7 @@ from PyQt5.QtGui import QPixmap # screen-optimised
 
 # needs a Qt.KeepAspectRatio constant to resize while maintaining proportions
 from PyQt5.QtCore import Qt
-
-from PIL.ImageFilter import (
-   BLUR, CONTOUR, DETAIL, EDGE_ENHANCE, EDGE_ENHANCE_MORE,
-   EMBOSS, FIND_EDGES, SMOOTH, SMOOTH_MORE, SHARPEN,
-   GaussianBlur, UnsharpMask
-)
+from PIL.ImageFilter import SHARPEN
 
 
 class ImageProcessor():
